@@ -1,0 +1,8 @@
+{"people": [
+    {"fullname":"Nattasha Mith", "country":"Sydney, Australia", "thoughts":"I'm impressed by the variety of features on your website. It caters to all my interests!"},
+    {"fullname":"Raymond Glario", "country":"Sydney, Australia", "thoughts":"Your website is incredibly user-friendly and has made my life so much easier!"},
+    {"fullname":"Benny Roll", "country":"Sydney, Australia", "thoughts":"Your website design is sleek and modern. It's a pleasure to navigate through it!"},
+    {        "fullname": "John Doe",        "country": "USA",        "thoughts": "I love the service!"    
+      },
+    {        "fullname": "Jane Smith",        "country": "Canada",        "thoughts": "Great experience overall."       }
+]}

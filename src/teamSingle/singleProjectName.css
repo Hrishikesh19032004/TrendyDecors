@@ -1,0 +1,54 @@
+.projects{
+    margin-bottom: 15rem;
+}
+
+.other-projects {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+   
+  }
+  
+.other-projects-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 4% 1%;
+    width: 21%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .other-projects-info>.mFullname {
+    font-family: 'Dm Serif Display';
+    font-size: 20px;
+    color: #292f36;
+  }
+  
+  .other-projects-info>.mFullname>span {
+    font-family: 'Jost';
+    font-size: 13px;
+    color: #4d5053;
+  }
+  
+  .other-projects-info>ul {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10%;
+  }
+  
+  .other-projects-info>ul>ol {
+    padding: 0;
+  }
+  
+  .other-projects-info>.mail {
+    width: 70%;
+    font-size: 13px;
+    color: #4d5053;
+    margin-top: 25%;
+  }

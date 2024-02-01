@@ -1,0 +1,102 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent; /* Set background color to transparent */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo-text{
+    font-family: 'DM Serif Display';
+    font-size: 2.2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.header-text{
+    width: 80%;
+}
+
+.header-logo {
+    display: flex;
+    width: 8%;
+    align-items: center;
+}
+
+.header-logo>img{
+    width: 100%;
+}
+.btn.transparent {
+    
+    background: none;
+    border: 2px solid #daa274;
+    width: 8.5rem;
+    height: 130%;
+    /* font-weight: 600; */
+    font-size:1.1rem;
+    border-radius: 1.5rem;
+    background-color: #daa274;
+    letter-spacing: 0.2rem;
+    padding-left: 0.9rem;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #fff;
+}
+
+.btn>Link:hover{
+    color: #fff;
+}
+
+.header-pages {
+    width: 55%;
+    display: flex;
+    right: 0%;
+}
+
+.header-pages>ul{
+    list-style-type: none;
+    font-family: Jost;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-pages>ul>li{
+    margin-right: 6%;
+    font-size: 1.25rem;
+}
+
+.hover-underline-animation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
