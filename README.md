@@ -20,49 +20,10 @@ TrendyDecors is a React-based frontend application designed to showcase trendy h
 - **Firebase Authentication:** Integrated Firebase Authentication for user registration, login, and authentication management.
 - **Redux (Optional):** Implemented Redux for state management, especially useful for managing global application state, such as user authentication status and shopping cart items.
 
-## Installation
-
-To run TrendyDecors locally on your machine, follow these steps:
-
-1. Clone the repository from GitHub:
-
-   ```
-   git clone https://github.com/your-username/TrendyDecors.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd TrendyDecors
-   ```
-
-3. Install dependencies using npm or yarn:
-
-   ```
-   npm install
-   ```
-
-   or
-
-   ```
-   yarn install
-   ```
-
-4. Start the development server:
-
-   ```
-   npm start
-   ```
-
-   The application should now be running locally on `http://localhost:3000`.
 
 ## Contributing
 
 Contributions to TrendyDecors are welcome! If you find any bugs, have feature requests, or would like to contribute enhancements, please submit an issue or create a pull request.
-
-## License
-
-The project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Acknowledgements
 
